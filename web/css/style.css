@@ -1,0 +1,30 @@
+
+body{
+font:15px/1.5 em Arial, Helvetica, sans-serif;
+margin: 0;
+padding: 0;
+background-color:#f4f4f4;
+}
+
+/* Global styles */
+
+.container{
+	width: 80%;
+	margin: auto;
+	overflow:hidden;
+}
+
+header{
+	background-color: #33ddff;
+	color: #fff;
+	padding-top: 30px;
+	min-height: 70px;
+}
+
+nav ul{
+	text-decoration: none;
+}
+
+nav li{
+	display: inline;
+}
