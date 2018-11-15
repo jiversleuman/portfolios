@@ -14,6 +14,11 @@ background-color:#f4f4f4;
 	overflow:hidden;
 }
 
+ul{
+	margin: 0;
+	padding: 0;
+}
+
 header{
 	background-color: #33ddff;
 	color: #fff;
@@ -27,12 +32,9 @@ header a{
 	text-decoration: none;
 	text-transform: uppercase;
 	font-size: 16px;
+	font-weight: bold;
 }
 
-header ul{
-	margin: 0;
-	padding: 0;
-}
 
 header li{
 	list-style: none;
@@ -42,4 +44,23 @@ header li{
 
 header #logo{
 	float: left;
+}
+
+header #logo h1{
+	margin: 0;
+}
+
+header nav{
+	float: right;
+	margin-top: 15px;
+}
+
+header .highlight, header .current a{
+	color: #ffff00;
+	font-weight: bold;
+}
+
+header a:hover{
+	color: green;
+	font-weight: bold;
 }
