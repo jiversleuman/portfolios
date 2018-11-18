@@ -1,0 +1,1 @@
+Sample responsive website created by Jervis Manuel
