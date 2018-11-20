@@ -130,3 +130,24 @@ header a:hover{
 #boxes .box img{
 	width: 90px;
 }
+
+#css-logo{
+	width: 90px;
+	height: 90px;
+}
+
+#seo-logo{
+	height: 100px;
+    width: 120px!important;
+}
+
+/* Footer */
+
+#main-footer{
+	padding: 20px;
+	margin-top: 20px;
+	text-align: center;
+	background-color: #33ddff;
+	color: #fff;
+	font-weight: bold;
+}
