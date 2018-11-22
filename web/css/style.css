@@ -28,6 +28,13 @@ ul{
 	font-weight: bold;
 }
 
+.blue{
+	padding: 15px;
+	background-color: #33ddff;
+	color: #fff;
+	margin: 10px 0;
+}
+
 /* Header Styles */
 
 header{
@@ -141,6 +148,36 @@ header a:hover{
     width: 120px!important;
 }
 
+/* Sidebar */
+
+aside#sidebar{
+	float: right;
+	width: 30%;
+	margin-top: 10px;
+}
+
+aside#sidebar .quote input, aside#sidebar .quote textarea{
+	width: 90%;
+	padding: 5px;
+}
+
+/* Main-col */
+
+article#main-col{
+	float: left;
+	width: 65%;
+}
+
+/* Services */
+
+ul#services li{
+	list-style: none;
+	padding: 20px;
+	border: #cccccc solid 1px;
+	margin-bottom: 5px;
+	background: #e6e6e6;
+}
+
 /* Footer */
 
 #main-footer{
@@ -150,4 +187,29 @@ header a:hover{
 	background-color: #33ddff;
 	color: #fff;
 	font-weight: bold;
+}
+
+/* Media Queries */
+@media(max-width: 768px){
+	header #logo,
+	#subscribe h1,
+	#subscribe form,
+	#boxes .box,
+	article#main-col,
+	aside#sidebar{
+		float: none;
+		text-align: center;
+		width: 100%;
+	}
+	header{
+		padding-bottom: 20px;
+	}
+	#subscribe button, .quote button{
+		display: block;
+		width: 100%;
+	}
+	#subscribe form input[type=email], .quote input, .quote textarea{
+		width: 100%;
+		margin-bottom: 5px;
+	}
 }
